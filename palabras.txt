@@ -1,0 +1,59 @@
+if,si,para condicionar 
+bool,booleano,Es el tipo de resultado de los operadores de comparacion e igualdad
+break,romper,permite terminar y salir de un bucle (es decir, do , for y while ) o un mandato switch desde cualquier punto distinto del fin l¢gico
+case,caso,se utiliza cuando queremos evitarnos las llamadas escaleras de decisiones
+catch,atrapar,se emplea para registrar errores y realizar limpiezas especiales antes de que se detenga la ejecuci¢n de un programa.
+char,carbonizarse,se usa para almacenar el valor entero de un miembro del juego de caracteres que se puede representar
+class,clase, actuar como una plantilla y va a definir las caracter¡sticas y comportamientos de una entidad
+const,constante, especifica que el valor de una variable es constante e indica al compilador que evite que el programador lo modifique
+const_cast,moldeconstante,Se usa para quitar los atributos const , volatile y __unaligned
+continue,continuar,Sirve para detener la iteraci¢n actual y volver al principio del bucle para realizar otra iteraci¢n, si corresponde.
+default,predeterminado,Indica que la interfaz personalizada o dispinterface definida en una coclase representa la interfaz de programaci¢n predeterminada.
+delete,borrar,sirven respectivamente para destruir los objetos creados con new.
+do,hacer,sirve para marcar el inicio del ciclo. Instrucciones, acciones que se realizar n en cada ciclo del bucle y que tendr n relaci¢n con la condici¢n de seguimiento.
+double,doble,se utiliza principalmente en c lculos de programaci¢n para eliminar errores cuando se redondean valores decimales.
+dynamic_cast,transmisi¢n_din mica, garantiza la conversi¢n de un puntero a una clase base a un puntero a una clase derivada, o la conversi¢n de un lvalue que hace referencia a una clase base a una referencia a una clase derivada.
+else,de_otro_modo,son una estructura de control, que nos permiten tomar cierta decisi¢n al interior de nuestro algoritmo
+enum,enumeracion,Declara una enumeraci¢n en el  mbito de espacio de nombres
+explicit,explicito,controla conversiones de tipo impl¡cito no deseadas.
+extern,externo,En una declaraci¢n de variable no global const , extern especifica que la variable o funci¢n se define en otra unidad de traducci¢n
+false,falso,es una condicional para una variable de tipo bool ya sea que no se cumpla.
+float,flotar,se utiliza principalmente en bibliotecas gr ficas para aplicaciones que requieren un alto poder de procesamiento debido a su rango limitado
+for,para,permite repetir una instrucci¢n o una instrucci¢n compuesta un n£mero especificado de veces.
+friend>>>amigo:es una funci¢n que no es miembro de una clase pero tiene acceso a los miembros privados y protegidos de la clase
+goto  >>>  ir_a:    permite derivar el flujo del programa mediante un salto a un punto en concreto del c¢digo
+inline  >>>  en_linea:    funciones que se expanden en el c¢digo en lugar de sobrecalentar la llamada
+int  >>>  entero:   permitir almacenar numero enteros
+long  >>>  largo:   Modifica el tama¤o en bits del entero.
+mutable  >>>  mudable:   es un es un modificador de tipo para los atributos de las clases
+namespace  >>>  espacio_de_nombres:   permiten declarar identificadores sin que ‚stos se solapen, indiscriminadamente, con los declarados en otras zonas de c¢digo.
+new  >>>  nuevo:   se utiliza para buscar almacenamiento en el almacen libre para el objeto que se esta creando.
+operator  >>>  operador:   se utiliza despu‚s de una variable de tipo puntero que apunta a una estructura de datos, para indicar a qu‚ campo de la estructura queremos acceder.
+private  >>>  privado:    Es para controlar el acceso a los miembros de una clase, m‚todos y atributos.
+protected  >>>  protegido:   La palabra clave protected especifica el acceso a los miembros de clase en member-list hasta el especificador de acceso siguiente ( public o private ) o el final de la definici¢n de clase.
+public  >>>  publico:   Cuando precede a una lista de miembros de clase, la palabra clave public especifica que esos miembros son accesibles desde cualquier funci¢n
+register  >>>  registro:   Los registros permiten almacenar un conjunto de datos bajo un mismo nombre
+reinterpret_cast  >>>  reinterpretar_el_molde:   permite que el puntero se tratar  como tipo entero
+return  >>>  devolver:   Finaliza la ejecuci¢n de una funci¢n y devuelve el control a la funci¢n de llamada
+short  >>>  corto:    representa un entero menor o igual que 32.767 y mayor o igual que -32.768
+signed  >>>  firmado:   modificadores que se puede utilizar con cualquier tipo entero excepto bool
+sizeof  >>>  de_tama¤o:   proporciona la cantidad de almacenamiento, en bytes, necesaria para almacenar un objeto del tipo del operando.
+static  >>>  estatico:   restringir su  mbito al archivo donde se definen
+static_cast  >>>  transmision_estatica:   convierte la variable j en un tipo float
+struct  >>>  estructura:   indica se est  definiendo una estructura.
+switch  >>>  cambiar:    hace que el control se transfiera a una instrucci¢n labeled-statement en el cuerpo de la instrucci¢n, en funci¢n del valor de condition .
+template  >>>  plantilla:    te permite definir el esqueleto de un algoritmo en una clase base y permite a las subclases sobrescribir los pasos sin cambiar la estructura general del algoritmo
+this  >>>  esto:    variable predefinida para todas las funciones u operadores miembro de una clase
+throw  >>>  tirar:   indica que se ha producido una condici¢n excepcional, a menudo un error, en un bloque try
+true  >>>  verdadero:    Esta palabra clave es uno de los dos valores para una variable de tipo bool o una expresi¢n condicional
+try  >>>  intentar:   permite que las aplicaciones de destino garanticen la ejecuci¢n del c¢digo de limpieza cuando se interrumpe la ejecuci¢n de un bloque de c¢digo.
+typedef  >>>  definicion_de_tipo:   asignar un nombre alternativo a tipos existentes
+typeid  >>>  id_tipo:   proporciona a un programa la posibilidad de recuperar el tipo derivado real del objeto al que hace referencia un puntero o una referencia.
+typename  >>>  tipo_de_nombre:   dice que este par metro es un marcador de posici¢n para un tipo
+union  >>>  union:   proporcionan una forma de manipular diferentes clases de datos dentro de una sola  rea de almacenamiento
+unsigned  >>>  no_firmando:   Devuelve datos num‚ricos convertidos al tipo de datos sin signo.
+using  >>>  usando:    proporciona acceso a todos los calificadores de espacio de nombres y al operador de  mbito.
+virtual  >>>  virtual:   funci¢n miembro que se espera volver a definir en clases derivadas
+void  >>>  vacio:   Cuando se usa como un tipo de valor devuelto de funci¢n, la palabra clave void especifica que la funci¢n no devuelve ning£n valor.
+volatile  >>>  volatil:   se utiliza para designar un objeto de datos como correlacionado con la memoria a la que pueden acceder los procesos independientes de entrada/salida y los procesos independientes de interrupci¢n as¡ncrona.
+while  >>>  mientras:   sirve para marcar el final del ciclo
