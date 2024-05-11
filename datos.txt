@@ -1,0 +1,66 @@
+asm,ensamblador,insertar instrucciones de ensamblador en linea
+auto,automatico,declara variable de almacenamiento automatico
+bool,booleano,tipo de datos booleano verdadero o falso
+break,interrumpir,salir de un bucle
+case,caso,define un caso u opcion en un switch
+catch,capturar,captura una excepcion de una instruccion
+char,caracter,tipo de dato caracter
+class,clase,declara una clase 
+const,constante,un valor constante, no puede ser modificado
+const cast,moldear constante,eliminar o agregar la cualidad de constante a un valor
+continue,continuar,saltarse la iteracion en un bucle
+default,por defecto,proporciona un caso por defecto en un switch
+delete,eliminar,se utiliza para liberar memoria asignada
+do,hacer,el inicio de un bucle do-while
+double,doble,usado para declarar variables con decimales
+dynamic cast,moldeo dinamico,convierte un puntero base a un puntero derivado
+else,entonces,realizar una accion alternativa si if no se cumple
+enum,enumeracion,definir un conjunto de constantes con nombre
+explicit,explicito,evitar conversiones automaticas no deseadas entre tipos de datos
+extern,externo,declarar una variable que esta definida en otro lugar del programa
+false,falso,indica que una condicion es falsa
+float,flotante,declarar variables con valores decimales con poca precision
+for,para,crear un bucle que ejecuta codigo mientras se cumple una condicion
+friend,amigo,declarar una funcion o clase como amiga de otra clase para obtener permisos
+goto,ir a,transferir el control del programa a una etiqueta espec fica dentro del bloque de c digo
+if,si,iniciar una estructura condicional y ejecutar instrucciones
+inline,en linea,sirve para que el compilador expanda una funcion en linea en lugar de ser llamada
+int,entero,declarar variables de tipo entero
+long,largo,declarar variables que almacenan numeros enteros largos
+mutable,mutable,declara variables que pueden ser modificados incluso si son constantes
+namespace,espacio de nombres,contenedor que agrupa nombre de variable, clases y funciones para evitar conflictos de nombres
+new,nuevo,asignar memoria dinamicamente para un objeto o matriz
+operator,operador,definir o sobrecargar operadores
+private,Privado,Especifica que esos miembros son accesibles solo desde funciones miembro y friend de la clase
+protected,Protegido,Declara los componentes protegidos de una clase
+public,Publico,Declara los componentes publicos de una clase
+register,Registro,Es un tipo de dato estructurado formado por la union de varios elementos bajo una misma estructura
+reinterpret_cast,Interpretar_cast,Convertir punteros o enteros sin cambiar valor en memoria
+return,Devolver,Termina la ejecucion de una funcion y devuelve el control a la funcion llamada
+short,Corto,Signo opcional seguido de una secuencia de longitud finita de digitos decimales
+signed,Indicar/Firmado,Modificadores que se puede utilizar con cualquier tipo entero excepto bool
+sizeof,Tamano de,Proporciona la cantidad de almacenamiento necesaria para almacenar un objeto del tipo del operando
+static,Estatico,Elementos o miembros de clase que conserva una copia de los datos para todos los objetos de la clase
+static_cas,Conversion Estatica,Convertir de un tipo de datos a otro implicitamente
+struc,Estructura,Construccion de datos que permite al programador agrupar diferentes tipos de datos bajo un solo nombre
+switch,Interruptor,Ejecuta codigo bajo condiciones que evalua linea por linea
+template,Plantilla,herramienta que permite escribir codigo generico que puede adaptarse a datos
+this,Este,Puntero privado al objeto actual de una clase
+throw,Arrojar,accion de generar una excepcion en un programa 
+true,Verdadero,Es un valor booleano que representa una condicion verdadera
+try,Intentar,Permitir el manejo controlado de excepciones de un programa
+typedef,Definicion de tipo,Crea nombres alternativos para tipos de datos existentes
+typeid,tipo identificacion,Obtener informacion sobre el tipo de objeto en tiempo de ejecucion
+typename,Nombre del Tipo,indicar que el nombre es el nombre del tipo en lugar de una variable
+union,union,define un tipo de dato que almacena diferentes tipos de datos en la misma ubicacion de memoria
+unsigned,sin signo,declara tipo de datos que solo contiene valores positivos o ceros, sin signos
+using,usando,crea alias para tipos, funciones o espacios de nombres
+virtual,virtual,declara funciones y metodos que pueden ser sobrescritos por funciones en clases derivadas
+void,vacio,indica que una funcion no devuelve ningun valor
+volatile,volatil,indica que una variable puede cambiar en cualquier momento incluso los constantes
+while,mientras,crea un bucle que ejecuta codigo mientras una condicion especifica sea verdadera
+main,principal,funcion principal de un programa 
+endl,fin de linea,realiza un salto de linea en el programa
+string,cadena,cadena de texto en c++
+cin,Entrada,Entrada de texto
+cout,salida,salida de texto
