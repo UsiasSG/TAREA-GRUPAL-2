@@ -5,7 +5,7 @@
 #include <iomanip>
 #include <map>
 #include <algorithm>
-
+//PROGRAMA UMG
 using namespace std;
 struct Palabra {
     string palabra;
@@ -13,7 +13,7 @@ struct Palabra {
     string significado;
 };
 
-// FunciÛn para crear una nueva palabra y almacenarla en el archivo
+// Funci√≥n para crear una nueva palabra y almacenarla en el archivo
 void crearPalabra() {
     Palabra nuevaPalabra;
 
@@ -38,7 +38,7 @@ void crearPalabra() {
     archivo.close();
 }
 
-// FunciÛn para leer todas las palabras almacenadas en el archivo
+// Funci√≥n para leer todas las palabras almacenadas en el archivo
 void leerPalabras() {
     // Abre el archivo en modo de lectura
     ifstream archivo("datos.txt");
@@ -59,7 +59,7 @@ void leerPalabras() {
     archivo.close();
 }
 
-// FunciÛn para eliminar una palabra del archivo
+// Funci√≥n para eliminar una palabra del archivo
 void eliminarPalabra(const string& palabraAEliminar) {
     ifstream archivoEntrada("datos.txt");
     ofstream archivoSalida("temp.txt");
@@ -100,7 +100,7 @@ void eliminarPalabra(const string& palabraAEliminar) {
     }
 }
 
-// FunciÛn para editar una palabra del archivo
+// Funci√≥n para editar una palabra del archivo
 void editarPalabra(const string& palabraAEditar) {
     ifstream archivoEntrada("datos.txt");
     ofstream archivoSalida("temp.txt");
@@ -147,7 +147,7 @@ void editarPalabra(const string& palabraAEditar) {
     }
 }
 
-// FunciÛn para traducir las palabras reservadas de C++ en el cÛdigo ingresado
+// Funci√≥n para traducir las palabras reservadas de C++ en el c√≥digo ingresado
 void traducirPalabrasReservadas(const string& codigo) {
     ifstream archivoPalabras("datos.txt");
     if (!archivoPalabras) {
@@ -173,22 +173,22 @@ void traducirPalabrasReservadas(const string& codigo) {
     bool dentroDeComentario = false;
     bool dentroDeCadena = false;
 
-    // Lee cada lÌnea del cÛdigo ingresado
+    // Lee cada l√≠nea del c√≥digo ingresado
     while (getline(stream, linea)) {
-        // Comprueba si la lÌnea est· dentro de un comentario de una lÌnea
+        // Comprueba si la l√≠nea est√° dentro de un comentario de una l√≠nea
         size_t posComentarioLinea = linea.find("//");
         if (posComentarioLinea != string::npos) {
             cout << linea.substr(0, posComentarioLinea) << endl;
-            break; // Termina la traducciÛn despuÈs del comentario de una lÌnea
+            break; // Termina la traducci√≥n despu√©s del comentario de una l√≠nea
         }
 
-        // Comprueba si la lÌnea est· dentro de un comentario de varias lÌneas
+        // Comprueba si la l√≠nea est√° dentro de un comentario de varias l√≠neas
         size_t posComentarioInicio = linea.find("/*");
         if (posComentarioInicio != string::npos) {
             dentroDeComentario = true;
         }
 
-        // Si estamos dentro de un comentario, muestra la lÌnea y contin˙a con la siguiente
+        // Si estamos dentro de un comentario, muestra la l√≠nea y contin√∫a con la siguiente
         if (dentroDeComentario) {
             size_t posComentarioFin = linea.find("*/");
             if (posComentarioFin != string::npos) {
@@ -197,27 +197,27 @@ void traducirPalabrasReservadas(const string& codigo) {
             continue;
         }
 
-        // Comprueba si la lÌnea contiene una cadena
+        // Comprueba si la l√≠nea contiene una cadena
         size_t posComillas = linea.find("\"");
         if (posComillas != string::npos) {
             dentroDeCadena = !dentroDeCadena;
         }
 
-        // Si estamos dentro de una cadena, muestra la lÌnea y contin˙a con la siguiente
+        // Si estamos dentro de una cadena, muestra la l√≠nea y contin√∫a con la siguiente
         if (dentroDeCadena) {
             cout << linea << endl;
             continue;
         }
 
-        // Procesa la lÌnea palabra por palabra para mantener los signos de puntuaciÛn
+        // Procesa la l√≠nea palabra por palabra para mantener los signos de puntuaci√≥n
         istringstream palabraStream(linea);
         string palabraCodigo;
         while (palabraStream >> palabraCodigo) {
-            // Elimina cualquier signo de puntuaciÛn que pueda estar presente en la palabra
+            // Elimina cualquier signo de puntuaci√≥n que pueda estar presente en la palabra
             string palabraSinPuntuacion = palabraCodigo;
             palabraSinPuntuacion.erase(remove_if(palabraSinPuntuacion.begin(), palabraSinPuntuacion.end(), ::ispunct), palabraSinPuntuacion.end());
 
-            // Si la palabra est· presente en el mapa de traducciones, muestra su traducciÛn
+            // Si la palabra est√° presente en el mapa de traducciones, muestra su traducci√≥n
             if (traducciones.find(palabraSinPuntuacion) != traducciones.end()) {
                 cout << traducciones[palabraSinPuntuacion] << palabraCodigo.substr(palabraSinPuntuacion.length()) << " ";
             } else {
@@ -225,7 +225,7 @@ void traducirPalabrasReservadas(const string& codigo) {
             }
         }
 
-        // Muestra un salto de lÌnea despuÈs de procesar cada lÌnea
+        // Muestra un salto de l√≠nea despu√©s de procesar cada l√≠nea
         cout << endl;
     }
 }
